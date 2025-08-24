@@ -55,7 +55,7 @@ echo "📝 Please create the vps-server.js file with the provided code"
 
 # Configure firewall
 echo "🔥 Configuring firewall..."
-sudo ufw allow 3001/tcp
+sudo ufw allow 6917/tcp
 sudo ufw allow ssh
 sudo ufw --force enable
 
