@@ -1,1 +1,1 @@
-web: pm2 start vps-server.js --name gituploader-api
+web: npm run pm2
